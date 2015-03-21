@@ -121,11 +121,13 @@ def main():
 	depth = 5
 	mean_ins = 3
 	var_ins = 0
-	p_mutation = 0
-	p_del = 0.05
+	p_mutation = 0.05
+	p_del = 0.0
 	mean_del = 2
 	var_del = 1
-	generate_tree(depth, mean_ins, var_ins, p_mutation=0.05, p_del=0.05, mean_del=2, var_del=1)
+	generate_tree(depth, mean_ins, var_ins, p_mutation, p_del, mean_del, var_del)
+
+	print 'let\'s do some EDA after this...'
 
 
 if __name__ == '__main__':
