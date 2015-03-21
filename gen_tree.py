@@ -111,21 +111,3 @@ def generate_tree(depth, mean_ins, var_ins, p_mutation=0.05, p_del=0.05, mean_de
 		#print '  done printing depth'
 	# printing tree
 	return tree
-
-
-
-def main():
-	# params
-	depth = 5 # depth of tree
-	mean_ins = 5 # mean length of insertions
-	var_ins = 0 # variance for length of insertions
-	p_mutation = 0.05 # prob of a mutation (per base)
-	p_del = 0.0 # prob of deletion
-	mean_del = 2 # mean length of deletion
-	var_del = 1 #variance for length of deletion
-	tree = generate_tree(depth, mean_ins, var_ins, p_mutation, p_del, mean_del, var_del)
-	print_tree(tree)
-
-
-if __name__ == '__main__':
-	main()
