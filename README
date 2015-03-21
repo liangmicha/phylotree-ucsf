@@ -1,1 +1,10 @@
-http://etetoolkit.org/treeview/
+Usage:
+python gen_tree.py
+
+
+TODO:
+add options to gen_tree.py
+
+
+
+Some tree view tool: http://etetoolkit.org/treeview/

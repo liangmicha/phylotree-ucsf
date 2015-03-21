@@ -81,7 +81,7 @@ def print_tree(tree):
 
 def gen_tag(mean, var):
 	# sample from a normal distribution
-	# N(mean, var)
+	# L ~ N(mean, var), where L is the length of the tag
 	length = np.random.normal()*var + mean
 	values = []
 	for _ in range(int(round(length))):
@@ -117,14 +117,14 @@ def generate_tree(depth, mean_ins, var_ins, p_mutation=0.05, p_del=0.05, mean_de
 
 
 def main():
-	# Experiment with sampling.
-	depth = 5
-	mean_ins = 3
-	var_ins = 0
-	p_mutation = 0.05
-	p_del = 0.0
-	mean_del = 2
-	var_del = 1
+	# params
+	depth = 5 # depth of tree
+	mean_ins = 5 # mean length of insertions
+	var_ins = 0 # variance for length of insertions
+	p_mutation = 0.05 # prob of a mutation (per base)
+	p_del = 0.0 # prob of deletion
+	mean_del = 2 # mean length of deletion
+	var_del = 1 #variance for length of deletion
 	generate_tree(depth, mean_ins, var_ins, p_mutation, p_del, mean_del, var_del)
 
 	print 'let\'s do some EDA after this...'
