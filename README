@@ -1,6 +1,8 @@
 Usage:
-python gen_tree.py
-
+python eda.py > log.txt
+# This will create figures in figures/ plotting condifence vs position and entropy vs position
+# The tree will be piped to log file
+# Generative model parameters in main function in eda.py
 
 TODO:
 add options to gen_tree.py
