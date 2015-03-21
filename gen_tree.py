@@ -92,11 +92,11 @@ def gen_tag(mean, var):
 
 def generate_tree(depth, mean_ins, var_ins, p_mutation=0.05, p_del=0.05, mean_del=2, var_del=1):
 	tree = []
-	parent_tag = [3, 1, 3, 2, 0, 2] # == 'TATGAG'
+	parent_tag = gen_tag(mean_ins, var_ins)
 	tree.append([parent_tag])
 	del_min = 0
 	for i in range(depth):
-		print '  depth: %s' %(i)
+		#print '  depth: %s' %(i)
 		lst = []
 		for node in tree[i]:
 			# create the two children, append to the list at i + 1.
@@ -108,11 +108,9 @@ def generate_tree(depth, mean_ins, var_ins, p_mutation=0.05, p_del=0.05, mean_de
 			lst.append(c1)
 			lst.append(c2)
 		tree.append(list(lst))
-		print tree
-		print '  done printing depth'
+		#print '  done printing depth'
 	# printing tree
-	print 'pritning tree now.'
-	print_tree(tree)
+	return tree
 
 
 
@@ -125,9 +123,8 @@ def main():
 	p_del = 0.0 # prob of deletion
 	mean_del = 2 # mean length of deletion
 	var_del = 1 #variance for length of deletion
-	generate_tree(depth, mean_ins, var_ins, p_mutation, p_del, mean_del, var_del)
-
-	print 'let\'s do some EDA after this...'
+	tree = generate_tree(depth, mean_ins, var_ins, p_mutation, p_del, mean_del, var_del)
+	print_tree(tree)
 
 
 if __name__ == '__main__':
