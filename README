@@ -7,6 +7,13 @@ python eda.py > log.txt
 TODO:
 add options to gen_tree.py
 
+Algorithms:
+1) Pick the best tag at the top.
+2) Pick the best child tags, etc
+
+
+
+
 
 
 Some tree view tool: http://etetoolkit.org/treeview/
