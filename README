@@ -1,19 +1,15 @@
 Usage:
-python eda.py > log.txt
-# This will create figures in figures/ plotting condifence vs position and entropy vs position
-# The tree will be piped to log file
-# Generative model parameters in main function in eda.py
+
+python ai_playground.py
+# This will create a tree based on params listed in the main function.
+# Then based only on leaves, will attempt to infer the tags at each node in the tree.
+# currently this seems to be able to split a group of leaves into two clearly defined
+# groups until depth 3 (where there are 4 leaves left to split)
+
 
 TODO:
-add options to gen_tree.py
-
-Algorithms:
-1) Pick the best tag at the top.
-2) Pick the best child tags, etc
-
-
-
-
+* Figure out big defined above.
+* Print original tree and compare it with the newly inferred tree.
 
 
 Some tree view tool: http://etetoolkit.org/treeview/
