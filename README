@@ -10,6 +10,7 @@ python ai_playground.py
 TODO:
 * Figure out bug defined above.
 * Print original tree and compare it with the newly inferred tree.
+* Fix the deletion process to choose random starting index to delete (instead of just at end)
 * Save randomly generated tree into .pkl file (cPickle).
 * Save result into .pkl file (cPickle).
 * Add options for parameters.
