@@ -8,8 +8,10 @@ python ai_playground.py
 
 
 TODO:
-* Figure out big defined above.
+* Figure out bug defined above.
 * Print original tree and compare it with the newly inferred tree.
-
+* Save randomly generated tree into .pkl file (cPickle).
+* Save result into .pkl file (cPickle).
+* Add options for parameters.
 
 Some tree view tool: http://etetoolkit.org/treeview/
