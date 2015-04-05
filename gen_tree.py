@@ -71,6 +71,7 @@ def stringify(node):
 		result += NUM_TO_BASE[i]
 	return result
 
+
 def print_tree(tree):
 	depth = len(tree)
 	for i in range(depth):
@@ -78,6 +79,27 @@ def print_tree(tree):
 		spaces = ' '*i
 		for node in tree[i]:
 			print '%s %s'%(spaces, stringify(node))
+
+
+def stringify_labelled(node):
+	# convert list of numbers to characters.
+	result = '(%s, '% (node[0])
+	for i in node[1]:
+		result += NUM_TO_BASE[i]
+	return result + ' )'
+
+
+def print_tree_labelled(tree):
+	depth = len(tree)
+	stringify_fn = stringify
+	for i in range(depth):
+		print 'printing depth %s/%s' %(i, depth-1)
+		spaces = ' '*i
+		if i == depth - 1:
+			stringify_fn = stringify_labelled
+		for node in tree[i]:
+			print '%s %s'%(spaces, stringify_fn(node))
+
 
 def gen_tag(mean, var):
 	# sample from a normal distribution
@@ -108,6 +130,4 @@ def generate_tree(depth, mean_ins, var_ins, p_mutation=0.05, p_del=0.05, mean_de
 			lst.append(c1)
 			lst.append(c2)
 		tree.append(list(lst))
-		#print '  done printing depth'
-	# printing tree
 	return tree

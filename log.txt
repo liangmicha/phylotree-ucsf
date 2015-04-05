@@ -1,100 +1,1001 @@
-generating tree 0/100
-generating tree 1/100
-generating tree 2/100
-generating tree 3/100
-generating tree 4/100
-generating tree 5/100
-generating tree 6/100
-generating tree 7/100
-generating tree 8/100
-generating tree 9/100
-generating tree 10/100
-generating tree 11/100
-generating tree 12/100
-generating tree 13/100
-generating tree 14/100
-generating tree 15/100
-generating tree 16/100
-generating tree 17/100
-generating tree 18/100
-generating tree 19/100
-generating tree 20/100
-generating tree 21/100
-generating tree 22/100
-generating tree 23/100
-generating tree 24/100
-generating tree 25/100
-generating tree 26/100
-generating tree 27/100
-generating tree 28/100
-generating tree 29/100
-generating tree 30/100
-generating tree 31/100
-generating tree 32/100
-generating tree 33/100
-generating tree 34/100
-generating tree 35/100
-generating tree 36/100
-generating tree 37/100
-generating tree 38/100
-generating tree 39/100
-generating tree 40/100
-generating tree 41/100
-generating tree 42/100
-generating tree 43/100
-generating tree 44/100
-generating tree 45/100
-generating tree 46/100
-generating tree 47/100
-generating tree 48/100
-generating tree 49/100
-generating tree 50/100
-generating tree 51/100
-generating tree 52/100
-generating tree 53/100
-generating tree 54/100
-generating tree 55/100
-generating tree 56/100
-generating tree 57/100
-generating tree 58/100
-generating tree 59/100
-generating tree 60/100
-generating tree 61/100
-generating tree 62/100
-generating tree 63/100
-generating tree 64/100
-generating tree 65/100
-generating tree 66/100
-generating tree 67/100
-generating tree 68/100
-generating tree 69/100
-generating tree 70/100
-generating tree 71/100
-generating tree 72/100
-generating tree 73/100
-generating tree 74/100
-generating tree 75/100
-generating tree 76/100
-generating tree 77/100
-generating tree 78/100
-generating tree 79/100
-generating tree 80/100
-generating tree 81/100
-generating tree 82/100
-generating tree 83/100
-generating tree 84/100
-generating tree 85/100
-generating tree 86/100
-generating tree 87/100
-generating tree 88/100
-generating tree 89/100
-generating tree 90/100
-generating tree 91/100
-generating tree 92/100
-generating tree 93/100
-generating tree 94/100
-generating tree 95/100
-generating tree 96/100
-generating tree 97/100
-generating tree 98/100
-generating tree 99/100
+depth: 0
+0 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+1 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+2 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+3 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+4 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+5 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+6 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+7 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+8 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+9 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+10 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+11 G 0.5 OrderedDict([(0, 0.5), (1, 0.0), (2, 0.5), (3, 0.0)])
+found split point.
+leaves: 
+
+  TGCGTGCCGGAGAGCCGCTCATGCATCTTACAGTCATCTTTTGCAG
+  TGCGTGCCGGAGAGCCGCTCATGCATCTTACAGTCATCTTTGCCGC
+  TGCGTGCCGGAGAGCCGCTCATGCATCTTACAGGTTGTCTAGCGT
+  TGCGTGCCGGAGAGCCGCTCATGCATCTTACAGGTTGTCCGCTA
+  TGCGTGCCGGAGAGCCGCTCATGCAGACGTCACGTCAGTAGTGT
+  TGCGTGCCGGAGAGCCGCTCATGCAGACGTCACGTCATCACTACG
+  TGCGTGCCGGAGAGCCGCTCATGCAGACGTCCCCGCACTTTACC
+  TGCGTGCCGGAGAGCCGCTCATGCAGACGTCCCCGCACTCCCTTA
+  TGCGTGCCGGAGAGCCGTCACGTCTGCGACTTGAGTCAACG
+  TGCGTGCCGGAGAGCCGTCACGTCTGCGACTTGAGTCATTGGG
+  TGCGTGCCGGAGAGCCGTCACGTCTGCGACAGATGG
+  TGCGTGCCGGAGAGCCGTCACGTCTGCGACAGAAGGGTC
+  TGCGTGCCGGAGAGCCGTCACGTACTATATTGACTAATCAG
+  TGCGTGCCGGAGAGCCGTCACGTACTATATTGATCATT
+  TGCGTGCCGGAGAGCCGTCACGTACTTTTAATTAGGAC
+  TGCGTGCCGGAGAGCCGTCACGTACTTTTAATTTTC
+  TGCGTGCCGGAACTAGTCATCGGAATTCACTTTGGAGACTAC
+  TGCGTGCCGGAACTAGTCATCGGAATTCACTTTGGATACCCT
+  TGCGTGCCGGAACTAGTCATCGGAATTCACTTCAGAGTGT
+  TGCGTGCCGGAACTAGTCATCGGAATTCACTTCAGAGCCGTT
+  TGCGTGCCGGAACTAGTCATCGGAAAAAGCGGGTTCCCTTTGCGTG
+  TGCGTGCCGGAACTAGTCATCGGAAAAAGCGGGTTCCCTTTTGGGACCC
+  TGCGTGCCGGAACTAGTCATCGGAAAAAGCGGGGCTATAAGCGTT
+  TGCGTGCCGGAACTAGTCATCGGAAAAAGCGGGGCTATAAATAAGGTG
+  TGCGTGCCGGAACTAGTCTAAGCTCGGTTATCAAGACTGTAAA
+  TGCGTGCCGGAACTAGTCTAAGCTCGGTTATCAATCCA
+  TGCGTGCCGGAACTAGTCTAAGCTCGGTTATCCAATACC
+  TGCGTGCCGGAACTAGTCTAAGCTCGGTTATCCAAAGGTT
+  TGCGTGCCGGAACTAGTCTAAGCTCCCACCCCCAGACACGGTGTC
+  TGCGTGCCGGAACTAGTCTAAGCTCCCACCCCCAGAAGCTAAGA
+  TGCGTGCCGGAACTAGTCTAAGCTCCCACCCCTAGTGCTGCGTAT
+  TGCGTGCCGGAACTAGTCTAAGCTCCCACCCCTAGTGCTCGTGGG
+end leaves
+
+     parent: TGCGTGCCGGA
+     split_index: 11
+     char1: 0
+     char2: 2
+
+0 2
+16 16 0
+------
+
+depth: 1
+0 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+1 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+2 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+3 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+4 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+5 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+6 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+7 A 0.5 OrderedDict([(0, 0.5), (1, 0.0), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  ACTAGTCATCGGAATTCACTTTGGAGACTAC
+  ACTAGTCATCGGAATTCACTTTGGATACCCT
+  ACTAGTCATCGGAATTCACTTCAGAGTGT
+  ACTAGTCATCGGAATTCACTTCAGAGCCGTT
+  ACTAGTCATCGGAAAAAGCGGGTTCCCTTTGCGTG
+  ACTAGTCATCGGAAAAAGCGGGTTCCCTTTTGGGACCC
+  ACTAGTCATCGGAAAAAGCGGGGCTATAAGCGTT
+  ACTAGTCATCGGAAAAAGCGGGGCTATAAATAAGGTG
+  ACTAGTCTAAGCTCGGTTATCAAGACTGTAAA
+  ACTAGTCTAAGCTCGGTTATCAATCCA
+  ACTAGTCTAAGCTCGGTTATCCAATACC
+  ACTAGTCTAAGCTCGGTTATCCAAAGGTT
+  ACTAGTCTAAGCTCCCACCCCCAGACACGGTGTC
+  ACTAGTCTAAGCTCCCACCCCCAGAAGCTAAGA
+  ACTAGTCTAAGCTCCCACCCCTAGTGCTGCGTAT
+  ACTAGTCTAAGCTCCCACCCCTAGTGCTCGTGGG
+end leaves
+
+     parent: ACTAGTC
+     split_index: 7
+     char1: 0
+     char2: 3
+
+0 3
+8 8 0
+------
+
+0 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+1 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+2 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+3 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+4 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+5 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+6 C 0.5 OrderedDict([(0, 0.0), (1, 0.5), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  GAGCCGCTCATGCATCTTACAGTCATCTTTTGCAG
+  GAGCCGCTCATGCATCTTACAGTCATCTTTGCCGC
+  GAGCCGCTCATGCATCTTACAGGTTGTCTAGCGT
+  GAGCCGCTCATGCATCTTACAGGTTGTCCGCTA
+  GAGCCGCTCATGCAGACGTCACGTCAGTAGTGT
+  GAGCCGCTCATGCAGACGTCACGTCATCACTACG
+  GAGCCGCTCATGCAGACGTCCCCGCACTTTACC
+  GAGCCGCTCATGCAGACGTCCCCGCACTCCCTTA
+  GAGCCGTCACGTCTGCGACTTGAGTCAACG
+  GAGCCGTCACGTCTGCGACTTGAGTCATTGGG
+  GAGCCGTCACGTCTGCGACAGATGG
+  GAGCCGTCACGTCTGCGACAGAAGGGTC
+  GAGCCGTCACGTACTATATTGACTAATCAG
+  GAGCCGTCACGTACTATATTGATCATT
+  GAGCCGTCACGTACTTTTAATTAGGAC
+  GAGCCGTCACGTACTTTTAATTTTC
+end leaves
+
+     parent: GAGCCG
+     split_index: 6
+     char1: 1
+     char2: 3
+
+1 3
+8 8 0
+------
+
+depth: 2
+0 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+1 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+2 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+3 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+4 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+5 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+6 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+7 T 0.5 OrderedDict([(0, 0.5), (1, 0.0), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  ATCGGAATTCACTTTGGAGACTAC
+  ATCGGAATTCACTTTGGATACCCT
+  ATCGGAATTCACTTCAGAGTGT
+  ATCGGAATTCACTTCAGAGCCGTT
+  ATCGGAAAAAGCGGGTTCCCTTTGCGTG
+  ATCGGAAAAAGCGGGTTCCCTTTTGGGACCC
+  ATCGGAAAAAGCGGGGCTATAAGCGTT
+  ATCGGAAAAAGCGGGGCTATAAATAAGGTG
+end leaves
+
+     parent: ATCGGAA
+     split_index: 7
+     char1: 0
+     char2: 3
+
+0 3
+4 4 0
+------
+
+0 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+1 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+2 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+3 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+4 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+5 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+6 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+7 G 0.5 OrderedDict([(0, 0.0), (1, 0.5), (2, 0.5), (3, 0.0)])
+found split point.
+leaves: 
+
+  TAAGCTCGGTTATCAAGACTGTAAA
+  TAAGCTCGGTTATCAATCCA
+  TAAGCTCGGTTATCCAATACC
+  TAAGCTCGGTTATCCAAAGGTT
+  TAAGCTCCCACCCCCAGACACGGTGTC
+  TAAGCTCCCACCCCCAGAAGCTAAGA
+  TAAGCTCCCACCCCTAGTGCTGCGTAT
+  TAAGCTCCCACCCCTAGTGCTCGTGGG
+end leaves
+
+     parent: TAAGCTC
+     split_index: 7
+     char1: 1
+     char2: 2
+
+1 2
+4 4 0
+------
+
+0 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+1 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+2 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+3 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+4 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+5 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+6 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+7 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+8 T 0.5 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.5), (3, 0.5)])
+found split point.
+leaves: 
+
+  CTCATGCATCTTACAGTCATCTTTTGCAG
+  CTCATGCATCTTACAGTCATCTTTGCCGC
+  CTCATGCATCTTACAGGTTGTCTAGCGT
+  CTCATGCATCTTACAGGTTGTCCGCTA
+  CTCATGCAGACGTCACGTCAGTAGTGT
+  CTCATGCAGACGTCACGTCATCACTACG
+  CTCATGCAGACGTCCCCGCACTTTACC
+  CTCATGCAGACGTCCCCGCACTCCCTTA
+end leaves
+
+     parent: CTCATGCA
+     split_index: 8
+     char1: 2
+     char2: 3
+
+2 3
+4 4 0
+------
+
+0 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+1 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+2 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+3 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+4 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+5 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+6 C 0.5 OrderedDict([(0, 0.5), (1, 0.5), (2, 0.0), (3, 0.0)])
+found split point.
+leaves: 
+
+  TCACGTCTGCGACTTGAGTCAACG
+  TCACGTCTGCGACTTGAGTCATTGGG
+  TCACGTCTGCGACAGATGG
+  TCACGTCTGCGACAGAAGGGTC
+  TCACGTACTATATTGACTAATCAG
+  TCACGTACTATATTGATCATT
+  TCACGTACTTTTAATTAGGAC
+  TCACGTACTTTTAATTTTC
+end leaves
+
+     parent: TCACGT
+     split_index: 6
+     char1: 0
+     char2: 1
+
+0 1
+4 4 0
+------
+
+depth: 3
+0 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+1 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+2 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+3 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+4 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+5 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+6 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+7 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+8 T 0.5 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.5), (3, 0.5)])
+found split point.
+leaves: 
+
+  AAAGCGGGTTCCCTTTGCGTG
+  AAAGCGGGTTCCCTTTTGGGACCC
+  AAAGCGGGGCTATAAGCGTT
+  AAAGCGGGGCTATAAATAAGGTG
+end leaves
+
+     parent: AAAGCGGG
+     split_index: 8
+     char1: 2
+     char2: 3
+
+2 3
+2 2 0
+------
+
+0 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+1 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+2 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+3 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+4 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+5 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+6 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+7 T 0.5 OrderedDict([(0, 0.0), (1, 0.5), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  TTCACTTTGGAGACTAC
+  TTCACTTTGGATACCCT
+  TTCACTTCAGAGTGT
+  TTCACTTCAGAGCCGTT
+end leaves
+
+     parent: TTCACTT
+     split_index: 7
+     char1: 1
+     char2: 3
+
+1 3
+2 2 0
+------
+
+0 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+1 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+2 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+3 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+4 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+5 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+6 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+7 C 0.5 OrderedDict([(0, 0.0), (1, 0.5), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  CCACCCCCAGACACGGTGTC
+  CCACCCCCAGAAGCTAAGA
+  CCACCCCTAGTGCTGCGTAT
+  CCACCCCTAGTGCTCGTGGG
+end leaves
+
+     parent: CCACCCC
+     split_index: 7
+     char1: 1
+     char2: 3
+
+1 3
+2 2 0
+------
+
+0 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+1 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+2 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+3 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+4 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+5 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+6 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+7 A 0.5 OrderedDict([(0, 0.5), (1, 0.5), (2, 0.0), (3, 0.0)])
+found split point.
+leaves: 
+
+  GGTTATCAAGACTGTAAA
+  GGTTATCAATCCA
+  GGTTATCCAATACC
+  GGTTATCCAAAGGTT
+end leaves
+
+     parent: GGTTATC
+     split_index: 7
+     char1: 0
+     char2: 1
+
+0 1
+2 2 0
+------
+
+0 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+1 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+2 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+3 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+4 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+5 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+6 A 0.5 OrderedDict([(0, 0.5), (1, 0.5), (2, 0.0), (3, 0.0)])
+found split point.
+leaves: 
+
+  GACGTCACGTCAGTAGTGT
+  GACGTCACGTCATCACTACG
+  GACGTCCCCGCACTTTACC
+  GACGTCCCCGCACTCCCTTA
+end leaves
+
+     parent: GACGTC
+     split_index: 6
+     char1: 0
+     char2: 1
+
+0 1
+2 2 0
+------
+
+0 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+1 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+2 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+3 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+4 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+5 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+6 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+7 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+8 T 0.5 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.5), (3, 0.5)])
+found split point.
+leaves: 
+
+  TCTTACAGTCATCTTTTGCAG
+  TCTTACAGTCATCTTTGCCGC
+  TCTTACAGGTTGTCTAGCGT
+  TCTTACAGGTTGTCCGCTA
+end leaves
+
+     parent: TCTTACAG
+     split_index: 8
+     char1: 2
+     char2: 3
+
+2 3
+2 2 0
+------
+
+0 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+1 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+2 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+3 A 0.5 OrderedDict([(0, 0.5), (1, 0.0), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  ACTATATTGACTAATCAG
+  ACTATATTGATCATT
+  ACTTTTAATTAGGAC
+  ACTTTTAATTTTC
+end leaves
+
+     parent: ACT
+     split_index: 3
+     char1: 0
+     char2: 3
+
+0 3
+2 2 0
+------
+
+0 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+1 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+2 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+3 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+4 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+5 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+6 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+7 T 0.5 OrderedDict([(0, 0.5), (1, 0.0), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  CTGCGACTTGAGTCAACG
+  CTGCGACTTGAGTCATTGGG
+  CTGCGACAGATGG
+  CTGCGACAGAAGGGTC
+end leaves
+
+     parent: CTGCGAC
+     split_index: 7
+     char1: 0
+     char2: 3
+
+0 3
+2 2 0
+------
+
+depth: 4
+0 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+1 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+2 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+3 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+4 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+5 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+6 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+7 G 0.5 OrderedDict([(0, 0.5), (1, 0.0), (2, 0.5), (3, 0.0)])
+found split point.
+leaves: 
+
+  GCTATAAGCGTT
+  GCTATAAATAAGGTG
+end leaves
+
+     parent: GCTATAA
+     split_index: 7
+     char1: 0
+     char2: 2
+
+0 2
+1 1 0
+------
+
+0 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+1 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+2 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+3 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+4 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+5 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+6 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+7 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+8 G 0.5 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.5), (3, 0.5)])
+found split point.
+leaves: 
+
+  TTCCCTTTGCGTG
+  TTCCCTTTTGGGACCC
+end leaves
+
+     parent: TTCCCTTT
+     split_index: 8
+     char1: 2
+     char2: 3
+
+2 3
+1 1 0
+------
+
+0 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+1 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+2 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+3 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+4 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+5 T 0.5 OrderedDict([(0, 0.0), (1, 0.5), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  CAGAGTGT
+  CAGAGCCGTT
+end leaves
+
+     parent: CAGAG
+     split_index: 5
+     char1: 1
+     char2: 3
+
+1 3
+1 1 0
+------
+
+0 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+1 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+2 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+3 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+4 G 0.5 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.5), (3, 0.5)])
+found split point.
+leaves: 
+
+  TGGAGACTAC
+  TGGATACCCT
+end leaves
+
+     parent: TGGA
+     split_index: 4
+     char1: 2
+     char2: 3
+
+2 3
+1 1 0
+------
+
+0 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+1 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+2 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+3 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+4 C 0.5 OrderedDict([(0, 0.5), (1, 0.5), (2, 0.0), (3, 0.0)])
+found split point.
+leaves: 
+
+  CAGACACGGTGTC
+  CAGAAGCTAAGA
+end leaves
+
+     parent: CAGA
+     split_index: 4
+     char1: 0
+     char2: 1
+
+0 1
+1 1 0
+------
+
+0 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+1 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+2 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+3 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+4 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+5 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+6 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+7 G 0.5 OrderedDict([(0, 0.0), (1, 0.5), (2, 0.5), (3, 0.0)])
+found split point.
+leaves: 
+
+  TAGTGCTGCGTAT
+  TAGTGCTCGTGGG
+end leaves
+
+     parent: TAGTGCT
+     split_index: 7
+     char1: 1
+     char2: 2
+
+1 2
+1 1 0
+------
+
+0 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+1 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+2 G 0.5 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.5), (3, 0.5)])
+found split point.
+leaves: 
+
+  AAGACTGTAAA
+  AATCCA
+end leaves
+
+     parent: AA
+     split_index: 2
+     char1: 2
+     char2: 3
+
+2 3
+1 1 0
+------
+
+0 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+1 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+2 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+3 T 0.5 OrderedDict([(0, 0.5), (1, 0.0), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  CAATACC
+  CAAAGGTT
+end leaves
+
+     parent: CAA
+     split_index: 3
+     char1: 0
+     char2: 3
+
+0 3
+1 1 0
+------
+
+0 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+1 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+2 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+3 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+4 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+5 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+6 G 0.5 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.5), (3, 0.5)])
+found split point.
+leaves: 
+
+  ACGTCAGTAGTGT
+  ACGTCATCACTACG
+end leaves
+
+     parent: ACGTCA
+     split_index: 6
+     char1: 2
+     char2: 3
+
+2 3
+1 1 0
+------
+
+0 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+1 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+2 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+3 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+4 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+5 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+6 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+7 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+8 T 0.5 OrderedDict([(0, 0.0), (1, 0.5), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  CCCGCACTTTACC
+  CCCGCACTCCCTTA
+end leaves
+
+     parent: CCCGCACT
+     split_index: 8
+     char1: 1
+     char2: 3
+
+1 3
+1 1 0
+------
+
+0 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+1 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+2 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+3 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+4 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+5 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+6 T 0.5 OrderedDict([(0, 0.0), (1, 0.5), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  GTTGTCTAGCGT
+  GTTGTCCGCTA
+end leaves
+
+     parent: GTTGTC
+     split_index: 6
+     char1: 1
+     char2: 3
+
+1 3
+1 1 0
+------
+
+0 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+1 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+2 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+3 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+4 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+5 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+6 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+7 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+8 T 0.5 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.5), (3, 0.5)])
+found split point.
+leaves: 
+
+  TCATCTTTTGCAG
+  TCATCTTTGCCGC
+end leaves
+
+     parent: TCATCTTT
+     split_index: 8
+     char1: 2
+     char2: 3
+
+2 3
+1 1 0
+------
+
+0 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+1 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+2 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+3 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+4 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+5 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+6 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+7 C 0.5 OrderedDict([(0, 0.0), (1, 0.5), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  ATATTGACTAATCAG
+  ATATTGATCATT
+end leaves
+
+     parent: ATATTGA
+     split_index: 7
+     char1: 1
+     char2: 3
+
+1 3
+1 1 0
+------
+
+0 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+1 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+2 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+3 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+4 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+5 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+6 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+7 A 0.5 OrderedDict([(0, 0.5), (1, 0.0), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  TTTAATTAGGAC
+  TTTAATTTTC
+end leaves
+
+     parent: TTTAATT
+     split_index: 7
+     char1: 0
+     char2: 3
+
+0 3
+1 1 0
+------
+
+0 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+1 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+2 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+3 T 0.5 OrderedDict([(0, 0.5), (1, 0.0), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  AGATGG
+  AGAAGGGTC
+end leaves
+
+     parent: AGA
+     split_index: 3
+     char1: 0
+     char2: 3
+
+0 3
+1 1 0
+------
+
+0 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+1 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+2 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+3 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+4 G 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 1.0), (3, 0.0)])
+5 T 1.0 OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 1.0)])
+6 C 1.0 OrderedDict([(0, 0.0), (1, 1.0), (2, 0.0), (3, 0.0)])
+7 A 1.0 OrderedDict([(0, 1.0), (1, 0.0), (2, 0.0), (3, 0.0)])
+8 A 0.5 OrderedDict([(0, 0.5), (1, 0.0), (2, 0.0), (3, 0.5)])
+found split point.
+leaves: 
+
+  TTGAGTCAACG
+  TTGAGTCATTGGG
+end leaves
+
+     parent: TTGAGTCA
+     split_index: 8
+     char1: 0
+     char2: 3
+
+0 3
+1 1 0
+------
+
+depth: 5
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+length is 1.
+printing actual tree...
+printing depth 0
+ TGCGTGCCGGA
+printing depth 1
+  TGCGTGCCGGAGAGCCG
+  TGCGTGCCGGAACTAGTC
+printing depth 2
+   TGCGTGCCGGAGAGCCGCTCATGCA
+   TGCGTGCCGGAGAGCCGTCACGT
+   TGCGTGCCGGAACTAGTCATCGGAA
+   TGCGTGCCGGAACTAGTCTAAGCTC
+printing depth 3
+    TGCGTGCCGGAGAGCCGCTCATGCATCTTACAG
+    TGCGTGCCGGAGAGCCGCTCATGCAGACGT
+    TGCGTGCCGGAGAGCCGTCACGTCTGCGAC
+    TGCGTGCCGGAGAGCCGTCACGTACT
+    TGCGTGCCGGAACTAGTCATCGGAATTCAC
+    TGCGTGCCGGAACTAGTCATCGGAAAAAGCGGG
+    TGCGTGCCGGAACTAGTCTAAGCTCGGTTATC
+    TGCGTGCCGGAACTAGTCTAAGCTCCCACCC
+printing depth 4
+     TGCGTGCCGGAGAGCCGCTCATGCATCTTACAGTCATCTT
+     TGCGTGCCGGAGAGCCGCTCATGCATCTTACAGGTTGTC
+     TGCGTGCCGGAGAGCCGCTCATGCAGACGTCACGTC
+     TGCGTGCCGGAGAGCCGCTCATGCAGACGTCCCCGCACT
+     TGCGTGCCGGAGAGCCGTCACGTCTGCGACTTGAGTC
+     TGCGTGCCGGAGAGCCGTCACGTCTGCGACAG
+     TGCGTGCCGGAGAGCCGTCACGTACTATATTGA
+     TGCGTGCCGGAGAGCCGTCACGTACTTTTAATT
+     TGCGTGCCGGAACTAGTCATCGGAATTCACTTTGGA
+     TGCGTGCCGGAACTAGTCATCGGAATTCACTTCAGA
+     TGCGTGCCGGAACTAGTCATCGGAAAAAGCGGGTTCCCTTT
+     TGCGTGCCGGAACTAGTCATCGGAAAAAGCGGGGCTATA
+     TGCGTGCCGGAACTAGTCTAAGCTCGGTTATCAA
+     TGCGTGCCGGAACTAGTCTAAGCTCGGTTATCCA
+     TGCGTGCCGGAACTAGTCTAAGCTCCCACCCCCAGA
+     TGCGTGCCGGAACTAGTCTAAGCTCCCACCCCTAGTGCT
+printing depth 5
+      TGCGTGCCGGAGAGCCGCTCATGCATCTTACAGTCATCTTTTGCAG
+      TGCGTGCCGGAGAGCCGCTCATGCATCTTACAGTCATCTTTGCCGC
+      TGCGTGCCGGAGAGCCGCTCATGCATCTTACAGGTTGTCTAGCGT
+      TGCGTGCCGGAGAGCCGCTCATGCATCTTACAGGTTGTCCGCTA
+      TGCGTGCCGGAGAGCCGCTCATGCAGACGTCACGTCAGTAGTGT
+      TGCGTGCCGGAGAGCCGCTCATGCAGACGTCACGTCATCACTACG
+      TGCGTGCCGGAGAGCCGCTCATGCAGACGTCCCCGCACTTTACC
+      TGCGTGCCGGAGAGCCGCTCATGCAGACGTCCCCGCACTCCCTTA
+      TGCGTGCCGGAGAGCCGTCACGTCTGCGACTTGAGTCAACG
+      TGCGTGCCGGAGAGCCGTCACGTCTGCGACTTGAGTCATTGGG
+      TGCGTGCCGGAGAGCCGTCACGTCTGCGACAGATGG
+      TGCGTGCCGGAGAGCCGTCACGTCTGCGACAGAAGGGTC
+      TGCGTGCCGGAGAGCCGTCACGTACTATATTGACTAATCAG
+      TGCGTGCCGGAGAGCCGTCACGTACTATATTGATCATT
+      TGCGTGCCGGAGAGCCGTCACGTACTTTTAATTAGGAC
+      TGCGTGCCGGAGAGCCGTCACGTACTTTTAATTTTC
+      TGCGTGCCGGAACTAGTCATCGGAATTCACTTTGGAGACTAC
+      TGCGTGCCGGAACTAGTCATCGGAATTCACTTTGGATACCCT
+      TGCGTGCCGGAACTAGTCATCGGAATTCACTTCAGAGTGT
+      TGCGTGCCGGAACTAGTCATCGGAATTCACTTCAGAGCCGTT
+      TGCGTGCCGGAACTAGTCATCGGAAAAAGCGGGTTCCCTTTGCGTG
+      TGCGTGCCGGAACTAGTCATCGGAAAAAGCGGGTTCCCTTTTGGGACCC
+      TGCGTGCCGGAACTAGTCATCGGAAAAAGCGGGGCTATAAGCGTT
+      TGCGTGCCGGAACTAGTCATCGGAAAAAGCGGGGCTATAAATAAGGTG
+      TGCGTGCCGGAACTAGTCTAAGCTCGGTTATCAAGACTGTAAA
+      TGCGTGCCGGAACTAGTCTAAGCTCGGTTATCAATCCA
+      TGCGTGCCGGAACTAGTCTAAGCTCGGTTATCCAATACC
+      TGCGTGCCGGAACTAGTCTAAGCTCGGTTATCCAAAGGTT
+      TGCGTGCCGGAACTAGTCTAAGCTCCCACCCCCAGACACGGTGTC
+      TGCGTGCCGGAACTAGTCTAAGCTCCCACCCCCAGAAGCTAAGA
+      TGCGTGCCGGAACTAGTCTAAGCTCCCACCCCTAGTGCTGCGTAT
+      TGCGTGCCGGAACTAGTCTAAGCTCCCACCCCTAGTGCTCGTGGG
+now here are the labels...
+printing depth 0/5
+ TGCGTGCCGGA
+printing depth 1/5
+  ACTAGTC
+  GAGCCG
+printing depth 2/5
+   ATCGGAA
+   TAAGCTC
+   CTCATGCA
+   TCACGT
+printing depth 3/5
+    AAAGCGGG
+    TTCACTT
+    CCACCCC
+    GGTTATC
+    GACGTC
+    TCTTACAG
+    ACT
+    CTGCGAC
+printing depth 4/5
+     GCTATAA
+     TTCCCTTT
+     CAGAG
+     TGGA
+     CAGA
+     TAGTGCT
+     AA
+     CAA
+     ACGTCA
+     CCCGCACT
+     GTTGTC
+     TCATCTTT
+     ATATTGA
+     TTTAATT
+     AGA
+     TTGAGTCA
+printing depth 5/5
+      (23, ATAAGGTG )
+      (22, GCGTT )
+      (20, GCGTG )
+      (21, TGGGACCC )
+      (19, CCGTT )
+      (18, TGT )
+      (16, GACTAC )
+      (17, TACCCT )
+      (29, AGCTAAGA )
+      (28, CACGGTGTC )
+      (31, CGTGGG )
+      (30, GCGTAT )
+      (24, GACTGTAAA )
+      (25, TCCA )
+      (27, AGGTT )
+      (26, TACC )
+      (4, GTAGTGT )
+      (5, TCACTACG )
+      (7, CCCTTA )
+      (6, TTACC )
+      (3, CGCTA )
+      (2, TAGCGT )
+      (1, GCCGC )
+      (0, TGCAG )
+      (12, CTAATCAG )
+      (13, TCATT )
+      (14, AGGAC )
+      (15, TTC )
+      (11, AGGGTC )
+      (10, TGG )
+      (8, ACG )
+      (9, TTGGG )

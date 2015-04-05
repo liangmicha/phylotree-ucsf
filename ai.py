@@ -21,7 +21,7 @@ def entropy_leaves(leaves, save_fig=False):
 
 	# get min_length of leaves, we don't care about the rest for now.
 	min_length = float('inf')
-	for leaf in leaves:
+	for _, leaf in leaves:
 		min_length = min(min_length, len(leaf))
 	num_leaves = len(leaves)
 
@@ -29,15 +29,15 @@ def entropy_leaves(leaves, save_fig=False):
 	confidence = []
 	counts_all = []
 	for i in range(min_length):
-		counts = collections.Counter()
+		counts = collections.OrderedDict([(0, 0.0), (1, 0.0), (2, 0.0), (3, 0.0)])
 		# counts key = key.
 		# counts value = count
-		for leaf in leaves:
+		for _, leaf in leaves:
 			counts[leaf[i]] += 1.0
 		# Now let's calculate entropy.
 		entropy_leaf = 0.0
 		for _, count in counts.iteritems():
-			prob = 1.0*count/num_leaves
+			prob = 1.0*(count+0.00001)/num_leaves
 			entropy_leaf -= prob*math.log(prob, 2)
 		confidence.append(1.0*max(counts.values())/num_leaves)
 		entropy.append(entropy_leaf)

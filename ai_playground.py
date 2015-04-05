@@ -22,6 +22,14 @@ def count_values_within_half(counts_dict, epsilon=0.1):
     return char1, char2, num_within_half
 
 
+def label_leaves(leaves):
+    result = []
+    i = 0
+    for l in leaves:
+        result.append((i, l))
+        i += 1
+    return result
+
 def infer_parent(leaves):
     # calculates list of entropies, returns count objects at each base position.
     confidence, _, min_length, counts_all = ai.entropy_leaves(leaves, True)
@@ -33,7 +41,7 @@ def infer_parent(leaves):
         for key, prob in counts_all[i].iteritems():
             counts_all[i][key] *= 1.0/len(leaves)
 
-        print i, gen_tree.stringify([leaves[0][i]]), confidence[i], counts_all[i]
+        print i, gen_tree.stringify([leaves[0][1][i]]), confidence[i], counts_all[i]
         char1, char2, num_near_half = count_values_within_half(counts_all[i])
         if num_near_half == 2:
             print 'found split point.'
@@ -54,7 +62,7 @@ def main():
 
     depth = 5 # depth of tree
     mean_ins = 6 # mean length of insertions
-    var_ins = 4 # variance for length of insertions
+    var_ins = 2 # variance for length of insertions
     p_mutation = 0.0 # prob of a mutation (per base)
     p_del = 0.0 # prob of deletion
     mean_del = 4 # mean length of deletion
@@ -68,9 +76,10 @@ def main():
     # ...
     # tree[-1] is nodes at depth of the leaves.
     leaves = tree[-1]
+    labeled_leaves = label_leaves(tree[-1])
 
     q = Queue.Queue()
-    q.put(leaves)
+    q.put(labeled_leaves)
 
     labels = [[] for _ in range(len(tree))]
     depth = 0
@@ -87,19 +96,19 @@ def main():
         print 'depth: %s' %(depth)
         while not q.empty():
             ls = q.get() # get the leaves
-            if len(ls) == 2:
-                # This is the base case.
-                labels[depth].append(ls)
+            if len(ls) == 1:
+                print 'length is 1.'
+                for lid, l in ls:
+                    labels[depth].append((lid, l))
+                continue
             parent, split_index, char1, char2 = infer_parent(ls)
             guessed_parent = gen_tree.stringify(parent)
             print 'leaves: \n'
-            for l in ls:
+            for _, l in ls:
                 print '  %s' %(gen_tree.stringify(l))
             print 'end leaves\n'
             print '     parent: %s\n     split_index: %s\n     char1: %s\n     char2: %s\n' %(
                     guessed_parent, split_index, char1, char2)
-            labels[depth].append(guessed_parent)
-
             # Now that we've done the parent, let's split the rest of the strings, and
             # cluster them.
          
@@ -107,19 +116,20 @@ def main():
             bin1 = []
             bin2 = []
             other = [] #weird case.
-            for leaf in ls:
+            for lid, leaf in ls:
                 if leaf[split_index] == char1:
-                    bin1.append(leaf[split_index:])
+                    bin1.append((lid, leaf[split_index:]))
                 elif leaf[split_index] == char2:
-                    bin2.append(leaf[split_index:])
+                    bin2.append((lid, leaf[split_index:]))
                 else:
-                    other.append(leaf[split_index:])
+                    other.append((lid, leaf[split_index:]))
             print char1, char2
             print len(bin1), len(bin2), len(other)
             if len(bin1) == len(bin2) and len(other) == 0:
                 # let's recursively do the rest now.
                 new_q.put(bin1)
                 new_q.put(bin2)
+                labels[depth].append(parent)
 
             else:
                 print 'something wrong, not able to split into two relatively equal bins, WHY?'
@@ -129,11 +139,14 @@ def main():
                 for o in other:
                     print '        %s\n'%(other[0])
                 return None
+
             print '------\n'
         q = new_q
         depth += 1
+    print 'printing actual tree...'
     gen_tree.print_tree(tree)
-    gen_tree.print_tree(labels)
+    print 'now here are the labels...'
+    gen_tree.print_tree_labelled(labels)
 
 
         
