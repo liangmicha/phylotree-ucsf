@@ -1,8 +1,11 @@
+import cPickle
 import pdb
 import Queue
 
 import gen_tree
 import ai
+
+from optparse import OptionParser
 
 
 def construct_counts_dict(counts_dict, lst):
@@ -60,15 +63,25 @@ def infer_parent(leaves):
 def main():
     # should be able to cPickle this.
 
-    depth = 5 # depth of tree
-    mean_ins = 6 # mean length of insertions
-    var_ins = 2 # variance for length of insertions
-    p_mutation = 0.0 # prob of a mutation (per base)
-    p_del = 0.0 # prob of deletion
-    mean_del = 4 # mean length of deletion
-    var_del = 2 #variance for length of deletion
+    # depth = 5 # depth of tree
+    # mean_ins = 6 # mean length of insertions
+    # var_ins = 2 # variance for length of insertions
+    # p_mutation = 0.0 # prob of a mutation (per base)
+    # p_del = 0.0 # prob of deletion
+    # mean_del = 4 # mean length of deletion
+    # var_del = 2 #variance for length of deletion
 
-    tree = gen_tree.generate_tree(depth, mean_ins, var_ins, p_mutation, p_del, mean_del, var_del)
+    # tree = gen_tree.generate_tree(depth, mean_ins, var_ins, p_mutation, p_del, mean_del, var_del)
+
+
+    parser = OptionParser()
+    parser.add_option('-f', dest='fname', help='name of pkl file', default='test_tree.pkl')
+    (options, args) = parser.parse_args()
+
+    # load tree from cPickle file.
+    f = open(options.fname, 'rb')
+    tree = cPickle.load(f)
+    f.close()
 
     # tree is a list of lists.
     # tree[0] is nodes at depth 0.
